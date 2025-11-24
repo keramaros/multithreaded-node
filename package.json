@@ -1,0 +1,28 @@
+{
+  "name": "multi-threaded",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node -r ts-node/register example/index.ts",
+    "example:messenger": "node -r ts-node/register examples/messenger/main.ts",
+    "example:events": "node -r ts-node/register examples/events/main.ts",
+    "example:progress": "node -r ts-node/register examples/progress/main.ts",
+    "example:extendSharedMemory": "node -r ts-node/register examples/extendSharedMemory/main.ts",
+    "test": "node --test -r ts-node/register test/*.ts"
+  },
+  "keywords": [
+    "threads",
+    "multi-threaded",
+    "workers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+  }
+}
