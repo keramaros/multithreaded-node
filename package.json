@@ -16,7 +16,6 @@
     "multi-threaded",
     "workers"
   ],
-  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^24.5.2",
@@ -24,5 +23,17 @@
     "ts-node": "^10.9.2"
   },
   "dependencies": {
-  }
+  },
+  "author": {
+    "name": "Antonis Keramaros",
+    "url": "https://keramaros.gr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keramaros/multithreaded-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keramaros/multithreaded-node/issues"
+  },
+  "homepage": "https://github.com/keramaros/multithreaded-node#readme"
 }
