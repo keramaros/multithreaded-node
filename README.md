@@ -29,6 +29,7 @@ npm install multithreaded-node
 
 ## Features
 
+- No dependencies
 - Event-based communication between the main thread and the worker
 - Asynchronous request between the main thread and the worker
 - Shared memory between the main thread and the worker
