@@ -96,7 +96,7 @@ const thread = initializeWorker()
 
 // respond to requests
 thread.respondTo('add', (array) => {
-    return a.reduce((a, b) => a + b, 0);
+    return array.reduce((a, b) => a + b, 0);
 });
 ```
 
